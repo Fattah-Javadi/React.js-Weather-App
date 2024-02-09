@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    width: 150px;
+    
+    align-items:center ;
+    background-color: #fff;
+    box-shadow: 9px 9px 41px 1px rgba(12,53,12,1);
+-webkit-box-shadow: 9px 9px 41px 1px rgba(12,53,12,1);
+-moz-box-shadow: 9px 9px 41px 1px rgba(12,53,12,1);
+    border-radius: 15px;
+    padding: 20px 10px 30px;
+    /* margin: 0 5px 15px; */
+    margin-bottom: 30px;
+    
+}
+
+.container h4 {
+    margin-bottom: 20px;
+    color: rgba(13,68,11,1);
+}
+
+.container p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+
+.container span {
+    color: lightslategray;
+}
